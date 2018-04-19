@@ -1,3 +1,30 @@
 .App {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #eee;
+}
+
+.demo{
+  margin: 20px auto;
+  width: 240px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 30px 20px;
+}
+.demo_content{
+  position: relative;
+  width: 240px;
+}
+input{
+  width: 100%;
+}
+.tips{
+  background-color: #fffdeb;
+  border-radius: 6px;
+  margin: 20px auto;
+  width: 240px;
+  padding: 20px;
   text-align: center;
 }
+
