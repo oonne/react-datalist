@@ -25,3 +25,14 @@ import Datalist from './component/Datalist'
   list={list}
   setVal={setValFun}
 />
+
+### Props
+* className: - string,
+
+* val: - string,
+
+* setVal: - function,
+
+* list: - array,
+
+* maxRow: - int - default 5.
