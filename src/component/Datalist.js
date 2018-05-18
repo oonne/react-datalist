@@ -31,9 +31,9 @@ class Datalist extends Component {
     let val = nextProps.val;
     let list = this.getList(nextProps.list, val);
 
-    let hit = list.some(item=>item==val);
+    let hit = list.some(item=>item===val);
 
-    if(val=='' || list.length==0 || hit){
+    if(val==='' || list.length===0 || hit){
       this.hide();
     }else{
       this.show();
